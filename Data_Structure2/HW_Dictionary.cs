@@ -14,6 +14,7 @@
             MD.monsterData.Add("임프", new Monster("폭풍매", 10, MonsterType.Dark));
 
             Monster monster1 = new Monster(MD.monsterData["멧돼지"].name, MD.monsterData["멧돼지"].hp, MD.monsterData["멧돼지"].type);
+            Monster monster2 = new Monster(MD.monsterData["멀록"]);
             Console.WriteLine($"이름 : {monster1.name} HP : {monster1.hp} 속성 : {monster1.type} ");
         }
 
@@ -37,6 +38,12 @@
                 this.name = _name;
                 this.hp = _hp;
                 this.type = _type;
+            }
+            public Monster(Monster _monster)
+            {
+                this.name = _monster.name;
+                this.hp = _monster.hp;
+                this.type = _monster.type;
             }
         }
     }
