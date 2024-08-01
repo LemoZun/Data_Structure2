@@ -2,7 +2,7 @@
 {
     internal class HW_Dictionary
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             // Dictionary<string , Monster> monsterDic = new Dictionary<string , Monster>();
             MonsterData MD = new MonsterData();
