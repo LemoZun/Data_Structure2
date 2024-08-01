@@ -8,7 +8,7 @@ namespace Data_Structure2
 {    
     internal class HashTable
     {
-        static void Main()
+        static void Main1()
         {
             // 해시테이블 기반의 dictionary 자료구조
             Dictionary<string, Monster> monsterDic = new Dictionary<string, Monster>();
